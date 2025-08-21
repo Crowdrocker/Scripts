@@ -46,24 +46,6 @@ sudo pacman -S --needed --noconfirm \
     foot \
     kitty \
     ttf-font-awesome  # icons for 
-# ------------------------
-# Gaming packages
-# ------------------------
-echo ">>> Installing gaming tools..."
-sudo pacman -S --needed --noconfirm \
-    steam \
-    lutris \
-    mangohud \
-    goverlay \
-    gamemode \
-    wine wine-mono wine-gecko \
-    winetricks \
-    protonup-qt \
-    vulkan-radeon lib32-vulkan-radeon \
-    lib32-mesa lib32-mesa-demos \
-    mesa-utils \
-    dxvk-bin \
-    vkbasalt
 
 # ------------------------
 # Configs (TokyoNight theme)
