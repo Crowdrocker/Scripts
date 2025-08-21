@@ -26,7 +26,7 @@ sudo pacman -Rns --noconfirm \
 echo ">>> Installing core utilities..."
 sudo pacman -S --needed --noconfirm \
     base-devel git curl wget unzip \
-    polkit gvfs ntfs-3g p7zip unrar zip unzip \
+    polkit-gnome gvfs ntfs-3g p7zip unrar zip unzip \
     pipewire pipewire-audio pipewire-alsa pipewire-pulse wireplumber \
     xdg-desktop-portal-hyprland xdg-desktop-portal-gtk \
     networkmanager bluez bluez-utils \
@@ -45,34 +45,7 @@ sudo pacman -S --needed --noconfirm \
     wofi \
     foot \
     kitty \
-    ttf-font-awesome  # icons for Waybar
-
-# ------------------------
-# Fonts (curated set)
-# ------------------------
-echo ">>> Installing curated fonts..."
-sudo pacman -S --needed --noconfirm \
-    # Core
-    ttf-dejavu \
-    noto-fonts \
-    noto-fonts-emoji \
-    \
-    # Adobe professional set
-    adobe-source-sans-fonts \
-    adobe-source-serif-fonts \
-    adobe-source-code-pro-fonts \
-    \
-    # Design/UI
-    ttf-opensans \
-    ttf-roboto \
-    ttf-ubuntu-font-family \
-    ttf-fira-sans \
-    ttf-fira-code \
-    \
-    # Gaming/UI compatibility
-    ttf-liberation \
-    ttf-droid
-
+    ttf-font-awesome  # icons for 
 # ------------------------
 # Gaming packages
 # ------------------------
