@@ -72,6 +72,7 @@ clang
 cliphist
 clonezilla
 cmake
+code
 code-features
 conky
 conky-manager2
@@ -84,6 +85,7 @@ cups-browsed
 cups-pdf
 curlftpfs
 darktable
+ddcui
 ddcutil
 ddrescue
 dex
@@ -111,7 +113,9 @@ easyeffects
 efibootmgr
 efitools
 egl-wayland
+electron
 emacs
+emote
 eog
 espeak-ng
 ethtool
@@ -242,6 +246,7 @@ jre-openjdk
 kanshi
 kate
 kcpuid
+kde-cli-tools
 kdenlive
 kitty
 konsole
@@ -281,6 +286,7 @@ lib32-vulkan-icd-loader
 lib32-vulkan-radeon
 libdvdcss
 libmythes
+libnotify
 libopenraw
 libpng
 libpulse
@@ -407,6 +413,7 @@ pacman-contrib
 pacseek
 pamixer
 papirus-icon-theme
+parallel
 pavucontrol
 pcmanfm-qt
 perf
@@ -417,14 +424,18 @@ php-apache
 picard
 pinta
 piper-tts-git
+pipewire
 pipewire-alsa
+pipewire-audio
 pipewire-jack
 pipewire-pulse
 pitivi
 pkgfile
 plasma-framework5
+playerctl
 plocate
 plymouth
+polkit-gnome
 popsicle
 postfix
 postgresql-libs
@@ -439,18 +450,22 @@ pychess
 python-pip
 python-pyquery
 python-pywalfox
+python-requests
 python-terminaltexteffects
 python-tkintertools
 python-watchdog
 qalculate-gtk
 qbittorrent
 qt5-graphicaleffects
+qt5-imageformats
+qt5-quickcontrols
 qt5-quickcontrols2
 qt5-svg
 qt5-tools
 qt5-wayland
 qt5ct
 qt6-virtualkeyboard
+qt6-wayland
 qt6ct
 quickshell-git
 radeon-profile-daemon-git
@@ -500,7 +515,9 @@ steamtinkerlaunch
 supergfxctl
 sushi
 swaks
+swaylock-effects-git
 swayosd
+swayosd-git
 swww
 syslinux
 system-config-printer
@@ -525,6 +542,7 @@ tokyonight-gtk-theme-git
 torbrowser-launcher
 traceroute
 trash-cli
+trash-cli-git
 tree
 tree-sitter-cli
 ttc-iosevka
@@ -609,6 +627,7 @@ wlroots-asan-git
 wmenu
 woff2-font-awesome
 wofi
+wttrbar
 wtype
 wvdial
 x86_energy_perf_policy
@@ -617,6 +636,7 @@ xclip
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-desktop-portal-wlr
+xdg-user-dirs
 xf86-input-synaptics
 xf86-video-amdgpu
 xf86-video-ati
@@ -683,3 +703,4 @@ zsh-autocomplete
 zsh-autosuggestions
 zsh-completions
 zsh-syntax-highlighting
+zsh-theme-powerlevel10k-git
