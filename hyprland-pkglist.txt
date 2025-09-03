@@ -496,3 +496,5 @@ zsh-theme-powerlevel10k-git
 
 
 flatpak install flathub app.drey.Warp com.github.Matoking.protontricks com.heroicgameslauncher.hgl com.obsproject.Studio com.rtosta.zapzap com.vivaldi.Vivaldi com.vysp3r.ProtonPlus im.riot.Riot io.github.Faugus.faugus-launcher io.github.fastrizwaan.WineZGUI me.proton.Pass net.davidotek.pupgui2 org.dupot.easyflatpak org.gnome.FileRoller org.gnome.Loupe org.gnome.TextEditor org.telegram.desktop --assumeyes  --or-update --system
+
+sudo pacman -Syu && sudo pacman -Scc && fc-cache -fv
